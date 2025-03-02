@@ -10,51 +10,65 @@
   <div class="container">
     
     <div class="header">
-        <h2>About me</h2>
+        <h2>Portfolio</h2>
        <nav>
-          
-            <a href="index.html">Me</a>
-            <a href="about.html">Projects</a>
-            <a href="contact.html">skills</a>
-            <a href="contact.html">Contact</a>
-          
+           <a href="javascript:void(0);" onclick="ColorMe()">Me</a>
+           <a href="#" onclick="colorMe4()">Projects</a>
+           <a href="#" onclick="ColorMe2()">skills</a>
+           <a href="#" onclick="ColorMe3()">Contact</a>
           </nav>
     </div>
     
     <div class="hero">
-        <div class="about-text">
-          <h2>about me</h2>
-          <p>Rock paper scissors, she's a stock traders sister
-            If the cop blocks the exit, he gets popped like a blister
+        <div class="about-text" id="about-text">
+          <h2>About me</h2>
+          <p>I m a passionate full-stack developer with a love for building AI-powered apps and web solutions. 
             <br>
             <br>
-            Shots need a chaser, man, the top made me shiver
-            Get him gone like a eraser, I'ma ball like the clippers
+            Skilled in JavaScript, Python, and React, I enjoy solving complex problems and creating user-friendly experiences.
             <br>
             <br>
-
-            This bitch got a angle, I got routes like the Bengals
-            If I find out she's cheating, then my bitch getting strangled
-            <br>
-            <br>
-
-            707, this a hellcat Durango
-            I'm squeezin' the Trackhawk, it takes two to tango</p>
+            Always learning and pushing boundaries in AI engineering and web development. 🚀</p>
         </div>
-        <img src="AI Robot in Business Uniform.jpeg">
+        <img src="AI Robot in Business Uniform.jpeg" >
     </div>
     
     <div class="section">
-        <img src="" alt="">
+        <img src="coverAi.png" alt="hi guys" id="pro">
         <div class="proSkills">
-          <h2></h2>
-          <p></p>
+          <h2>Skills</h2>
+          <ul id="ski">
+            <li>Software engineer</li>
+            <li>Magazine writter</li>
+            <li>Freelancer</li>
+          </ul>
           <br>
-          <h2></h2>
-          <p></p>
+         
+        </div>
+        </div>
+        
+        <h2 id="skiListH2">Skills List</h2>
+        <div class="skilList">
+        <img src="pngegg.png">
+        <img src="git.png">
+        <img src="github.png">
+
+        <p></p>
+        </div>
+        <div class="contact" >
+          <div id="contact">
+          <p>0404672893</p>
+          <p>Metro@bussiness.com</p>
+          </div>
+        </div>
+        <div class="bts"><button id="btn" class="btn" onclick="showMe()">PHOTO OF ME</button>
+        <button id="btn2" class="btn2"  onclick="removeImage()">Close</button>
         </div>
     </div>
+    <script src="app.js" defer></script>
+     
 
-  </div>
+ 
+ 
 </body>
 </html>
