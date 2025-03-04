@@ -39,13 +39,24 @@ function removeImage() {
   document.getElementById("btn").innerHTML = "";
 document.getElementById('btn2').style.display = 'none';
 document.getElementById('btn').innerHTML = ' <button id="btn" class="btn" onclick="showMe()">PHOTO OF ME</button>';
+document.getElementById('hi').style.display = 'none';
+document.getElementById('btn3').style.display = 'none';
+
+
+
 }
 
 document.getElementById('btn2').style.display = 'none';
+document.getElementById('btn3').style.display = 'none';
+
 
 function showMe() {
   document.getElementById('btn').innerHTML = '<img src="p47407711-6.jpg"> '
   document.getElementById('btn2').style.display = 'block';
+  document.getElementById('btn3').style.display = 'block';
+}
+document.getElementById('hi').style.display = ' none';
 
-  
+function showMe2() {
+document.getElementById('hi').style.display = 'block';
 }
